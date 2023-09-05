@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* SECTION 2 */
+
+#titre{
+    margin: 5% 5% 5% 5%;
+}
+
+#titre-p{
+    color: #c99387;
+    font-family: 'Noto Serif';
+    font-style: italic;
+}
+
+#titre-h2{
+    margin: 1% 0% 4% 0%;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+#titre-block{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.a, .b, .c, .d{
+    margin-bottom: 15%;
+}
+
+.a img, .b img, .d img{
+    width: 70%;
+}
+
+.c img{
+    width: 100%;
+}
+
+.titre-img-p{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+
+.titre-chiffre{
+    color: #fbf5f5;
+    font-size: 110px;
+}
+
+/* SECTION 4 */
+
+#titre-3{
+    padding-bottom: 8%;
+}
+
+.titre-3-sim{
+    color: #c99387;
+    font-family: 'Noto Serif';
+    text-align: center;
+    font-style: italic;
+}
+
+.titre-3-h{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-size: 35px;
+    margin: 0.5% 0% 3% 0%;
+}
+
+#block-project{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.pro{
+    margin: 2% 2% 2% 2%
+}
+
+.pro img{
+    width: 100%;
+}
+
+.pro p{
+    color: #636363;
+    margin: 5% 0% 5% 7%;
+}
+
+.pro h3{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    margin-top: 4%;  
+}
+
+/* FOOTER */
+
+#footer{
+    background: url("assets/landing-bottom-background-1.jpg");
+    margin: auto;
+    width: 99vw;
+    height: 100vh;
+}
+
+.footer-p{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Noto Serif';
+    padding-top: 15%;
+    color: white;
+}
+
+#footer h1{
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding-top: 1%;
+}
+
+#footer .footer-txt{
+    text-align: center;
+    color: white;
+    margin: 1% 37% 0% 37%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-btn{
+    display: flex;
+    justify-content: center;
+	align-items: center;
+}
+
+#footer button{
+    padding: 1%;
+    background-color: white;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin-top: 1.5%;
+}
