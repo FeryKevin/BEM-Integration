@@ -142,33 +142,6 @@
   }
 }
 
-@media (max-width: 426px) {
-    .exercice{
-        margin: 7%;
-    }
-
-    .welcome{
-        margin: 15% 0% 5% 0%;
-    }
-
-    .header-p{
-        margin: 2% 0% 2% 0%;
-    }
-    
-    #header button{
-        padding: 4% 8% 4% 8%;
-        margin-top: 4%;
-    }
-
-    .header-radio{
-        margin-top: 10%;
-    }
-
-    .slider img{
-        height: 125vw;
-    }
-}
-
 @media (max-width: 1025px) {
     
     .exercice{
@@ -195,6 +168,33 @@
 @media (max-width: 580px) {
     .slider img{
         height: 130vw;
+    }
+}
+
+@media (max-width: 426px) {
+    .exercice{
+        margin: 7%;
+    }
+
+    .welcome{
+        margin: 15% 0% 5% 0%;
+    }
+
+    .header-p{
+        margin: 2% 0% 2% 0%;
+    }
+    
+    #header button{
+        padding: 4% 8% 4% 8%;
+        margin-top: 4%;
+    }
+
+    .header-radio{
+        margin-top: 10%;
+    }
+
+    .slider img{
+        height: 125vw;
     }
 }
 
@@ -289,6 +289,40 @@
     font-style: italic;
     margin-left: 1%;
     font-family: 'Noto Serif';
+}
+
+@media (max-width: 769px) {
+    #titre{
+        margin: -25% 5% 5% 5%;
+    }
+
+    #titre-block{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+    }
+
+    .a img, .b img{
+        margin: 2% 0% 0% 0%;
+        width: 100%;
+    }
+
+    .c img .d img{
+        width: 100%;
+        margin: 2% 0% 0% 0%;
+    }
+
+    .e{
+        margin-top: -9.5%;
+    }
+
+    .chiffre{
+        position: absolute;
+        margin-top: 12%;
+    }
 }
 
 /* SECTION 3 */
