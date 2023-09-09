@@ -142,6 +142,78 @@
   }
 }
 
+@media (max-width: 426px) {
+    .exercice{
+        margin: 7%;
+    }
+
+    .welcome{
+        margin: 15% 0% 5% 0%;
+    }
+
+    .header-p{
+        margin: 2% 0% 2% 0%;
+    }
+    
+    #header button{
+        padding: 4% 8% 4% 8%;
+        margin-top: 4%;
+    }
+
+    .header-radio{
+        margin-top: 10%;
+    }
+
+    .slider img{
+        height: 125vw;
+    }
+}
+
+@media (max-width: 1025px) {
+    
+    .exercice{
+        margin-left: 5%;
+    }
+
+    .slider img{
+        height: 65vw;
+    }
+}
+
+@media (max-width: 940px) {
+    .slider img{
+        height: 84vw;
+    }
+}
+
+@media (max-width: 720px) {
+    .slider img{
+        height: 100vw;
+    }
+}
+
+@media (max-width: 580px) {
+    .slider img{
+        height: 130vw;
+    }
+}
+
+@media (max-width: 376px) {
+    .header-p{
+        margin: 8% 0% 8% 0%;
+    }
+
+    .slider img{
+        height: 190vw;
+    }
+}
+
+@media (max-width: 321px) {
+    .slider img{
+        height: 190vw;
+    }
+}
+
 /* SECTION 2 */
 
 #titre{
