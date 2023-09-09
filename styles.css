@@ -6,6 +6,137 @@
     padding: 0;
 }
 
+/* SECTION 1 / HEADER */
+
+.slider {
+    height: 100vh;
+    width: 99vw;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.header-txt{
+    z-index: 1;
+}
+
+.exercice{
+    color: #feebdd;
+    font-style: italic;
+    font-family: 'Noto Serif';
+    margin-top: 5%;
+    font-size: 18px;
+}
+
+.welcome{
+    color: #feebdd;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Noto Serif';
+    margin: 9% 0% 1% 0%;
+    font-size: 25px;
+}
+
+.header-txt h1{
+    font-size: 65px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.header-p{
+    text-align: center;
+    color: white;
+    margin: 1% 32% 0% 32%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-btn{
+    display: flex;
+    justify-content: center;
+	align-items: center;
+}
+
+#header button{
+    padding: 1% 2% 1% 2%;
+    background-color: white;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin-top: 1.5%;
+}
+
+/* POINTS */
+
+.slider__nav {
+  width: 12px;
+  height: 12px;
+  margin: 2rem 12px;
+  border-radius: 50%;
+  z-index: 10;
+  outline: 6px solid #ccc;
+  outline-offset: -6px;
+  box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+  cursor: pointer;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.slider__nav:checked {
+    animation: check 0.4s linear forwards;
+}
+
+.slider__nav:checked:nth-of-type(1) ~ .slider__inner {
+  left: 0%;
+}
+
+.slider__nav:checked:nth-of-type(2) ~ .slider__inner {
+  left: -114%;
+}
+
+.slider__nav:checked:nth-of-type(3) ~ .slider__inner {
+  left: -227%;
+}
+
+.slider__nav:checked:nth-of-type(4) ~ .slider__inner {
+  left: -341%;
+}
+
+.slider__inner {
+  position: absolute;
+  top: 0;
+  transition: left 0.4s;
+  display: flex;
+}
+
+@-webkit-keyframes check {
+  50% {
+    outline-color: #333;
+    box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
+  }
+  100% {
+    outline-color: #333;
+    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+  }
+}
+
+@keyframes check {
+  50% {
+    outline-color: #333;
+    box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
+  }
+  100% {
+    outline-color: #333;
+    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+  }
+}
+
 /* SECTION 2 */
 
 #titre{
