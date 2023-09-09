@@ -115,6 +115,7 @@
 .slider__inner {
   position: absolute;
   top: 0;
+  left: 0;
   transition: left 0.4s;
   display: flex;
 }
@@ -222,26 +223,21 @@
 
 #titre-2{
     display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: stretch;
-	align-content: stretch;
+	justify-content: space-evenly;
     background: url("assets/landing-slider1-background.jpg");
-    margin: auto;
     width: 99vw;
     height: 100vh;
     margin-bottom: 10%;
 }
 
 .titre2-txt{
-    margin: 18% 5% 5% 5%;
+    margin: 18% 5% 3% 5%;
 }
 
 .titre-p{
     color: #c99387;
     font-style: italic;
-    margin: 0% 0% 2% 0%;
+    margin-bottom: 2%;
 }
 
 .titre2-txt h2{
@@ -255,7 +251,7 @@
 .titre-p2{
     color: white;
     font-family: 'Montserrat', sans-serif;
-    margin: 4% 25% 4% 0%;
+    margin: 4% 0% 5% 0%;
 }
 
 .titre-link{
@@ -263,6 +259,40 @@
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     letter-spacing: 1px;
+}
+
+.titre-img1{
+    margin: 10% 6% 5% 0%;
+}
+
+.titre-img2{
+    margin-top: 10%;
+}
+
+.titre-img1 img{
+    display: flex;
+    flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    margin-left: 3%;
+    width: 100%;
+}
+
+.titre-img2 img{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.j{
+    position: absolute;
+    right: 37.5%;
+    margin-top: 9.5%;
+}
+
+.j img{
+    width: 105%;
 }
 
 /* SECTION 4 */
