@@ -54,6 +54,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+#header .tiret:hover{
+    display: none;
+}
+
 .header-btn{
     display: flex;
     justify-content: center;
@@ -204,7 +208,7 @@
     }
 
     .slider img{
-        height: 190vw;
+        height: 150vw;
     }
 }
 
@@ -315,13 +319,63 @@
         margin: 2% 0% 0% 0%;
     }
 
-    .e{
+    .e, .w{
         margin-top: -9.5%;
     }
 
     .chiffre{
         position: absolute;
         margin-top: 12%;
+    }
+}
+
+@media (max-width: 620px) {
+    .e, .w{
+        margin-top: -12%;
+    }
+
+    .chiffre{
+        position: absolute;
+        margin-top: 16%;
+    }
+}
+
+@media (max-width: 520px) {
+    .e, .w{
+        margin-top: -15%;
+    }
+}
+
+@media (max-width: 430px) {
+    #titre-h2{
+        margin: 2% 0% 10% 0%;
+    }
+    .e, .w{
+        margin-top: -19%;
+    }
+
+    .chiffre{
+        position: absolute;
+        margin-top: 26%;
+    }
+}
+
+@media (max-width: 360px) {
+    .e, .w{
+        margin-top: -22%;
+    }
+    
+    .chiffre{
+        position: absolute;
+        margin-top: 27%;
+    }
+}
+
+@media (max-width: 320px) {
+    
+    .chiffre{
+        position: absolute;
+        margin-top: 30%;
     }
 }
 
