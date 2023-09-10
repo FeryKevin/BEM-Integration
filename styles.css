@@ -385,6 +385,7 @@
     display: flex;
 	justify-content: space-evenly;
     background: url("assets/landing-slider1-background.jpg");
+    background-repeat: no-repeat;
     width: 99vw;
     height: 100vh;
     margin-bottom: 10%;
@@ -453,6 +454,24 @@
 
 .j img{
     width: 105%;
+}
+
+@media (max-width: 769px) {
+    #titre-2{
+        height: 60vh;
+    }
+    .titre2-txt{
+        margin-top: 15%;
+    }
+    .titre2-txt h2{
+        margin-right: 50%;
+    }
+    .titre-p2{
+        margin: 10% 0% 10% 0%;
+    }
+    .titre2-img{
+        display: none;
+    }
 }
 
 /* SECTION 4 */
