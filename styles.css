@@ -528,9 +528,10 @@
 
 #footer{
     background: url("assets/landing-bottom-background-1.jpg");
-    margin: auto;
+    background-repeat: no-repeat;
+    margin: none;
     width: 99vw;
-    height: 100vh;
+    height: 91vh;
 }
 
 .footer-p{
@@ -571,4 +572,43 @@
     font-family: 'Montserrat', sans-serif;
     color: black;
     margin-top: 1.5%;
+}
+
+@media (max-width: 769px) {
+    #footer .footer-p{
+        padding-top: 30%;
+    }
+
+    #footer h1{
+        padding: 2% 0% 2% 0%;
+    }
+
+    #footer .footer-txt{
+        margin: 0% 8% 0% 8%;
+    }
+
+    #footer button{
+        padding: 3.5% 6% 3.5% 6%;
+        margin-top: 6%;
+    }
+}
+
+@media (max-width: 426px) {
+    #footer .footer-p{
+        padding-top: 40%;
+    }
+
+    #footer h1{
+        padding: 4% 0% 4% 0%;
+        font-size: 40px;
+    }
+
+    #footer .footer-txt{
+        margin: 0% 8% 0% 8%;
+    }
+
+    #footer button{
+        padding: 3.5% 6% 3.5% 6%;
+        margin-top: 6%;
+    }
 }
