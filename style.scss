@@ -4,217 +4,91 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
-/* SECTION 1 / HEADER */
+/* SECTION 1 - HEADER */
 
-.slider {
-    height: 100vh;
-    width: 99vw;
+.header {
+    display: flex;
+    justify-content: center;
     position: relative;
     overflow: hidden;
-    display: flex;
-    justify-content: center;
-}
+    height: 100VH;
+    width: 100%;
 
-.header-txt{
-    z-index: 1;
-}
+    .header__information{
+        z-index: 1;
 
-.exercice{
-    color: #feebdd;
-    font-style: italic;
-    font-family: 'Noto Serif';
-    margin-top: 5%;
-    font-size: 18px;
-}
+        .header__exercise{
+            margin: 3% 0% 0% 3%;
+            color: #feebdd;
+            font-style: italic;
+            font-family: 'Noto Serif';
+        }
+        
+        .header__welcome{
+            margin: 9% 0% 1% 0%;
+            font-size: 1.5rem;
+            color: #feebdd;
+            font-style: italic;
+            text-align: center;
+            font-family: 'Noto Serif';
+        }
+        
+        .header__title{
+            font-weight: bold;
+            text-align: center;
+            color: white;
+            font-size: 3.5rem;
+            letter-spacing: 5px;
+        }
+        
+        .header__text{
+            margin: 1% 32% 0% 32%;
+            text-align: center;
+            color: white;
+            font-size: 1.3rem;
+        }
 
-.welcome{
-    color: #feebdd;
-    font-style: italic;
-    text-align: center;
-    font-family: 'Noto Serif';
-    margin: 9% 0% 1% 0%;
-    font-size: 25px;
-}
+        .header__button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-.header-txt h1{
-    font-size: 65px;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 5px;
-    font-weight: bold;
-    text-align: center;
-    color: white;
-}
+        .header__button button{
+            color: black;
+            background-color: white;
+            margin-top: 1.5%;
+            padding: 1% 2% 1% 2%;
+            border: none;
+        }
 
-.header-p{
-    text-align: center;
-    color: white;
-    margin: 1% 32% 0% 32%;
-    font-family: 'Montserrat', sans-serif;
-}
+        .header__radio{
+            display: flex;
+            justify-content: center;
+            margin-top: 7%;
+        }
 
-#header .tiret:hover{
-    display: none;
-}
-
-.header-btn{
-    display: flex;
-    justify-content: center;
-	align-items: center;
-}
-
-#header button{
-    padding: 1% 2% 1% 2%;
-    background-color: white;
-    border: none;
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    margin-top: 1.5%;
-}
-
-.slider__nav {
-    width: 12px;
-    height: 12px;
-    margin: 2rem 12px;
-    border-radius: 50%;
-    z-index: 10;
-    outline: 6px solid #ccc;
-    outline-offset: -6px;
-    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
-    cursor: pointer;
-    -webkit-appearance: none;
-        -moz-appearance: none;
-            appearance: none;
-    -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-}
-
-.header-radio{
-    display: flex;
-    justify-content: center;
-    margin-top: 13%;
-}
-
-.slider__nav:checked {
-    animation: check 0.4s linear forwards;
-}
-
-.slider__nav:checked:nth-of-type(1) ~ .slider__inner {
-    left: 0%;
-}
-
-.slider__nav:checked:nth-of-type(2) ~ .slider__inner {
-    left: -114%;
-}
-
-.slider__nav:checked:nth-of-type(3) ~ .slider__inner {
-    left: -227%;
-}
-
-.slider__nav:checked:nth-of-type(4) ~ .slider__inner {
-    left: -341%;
-}
-
-.slider__inner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: left 0.4s;
-    display: flex;
-}
-
-@-webkit-keyframes check {
-    50% {
-        outline-color: #333;
-        box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
-    }
-    100% {
-        outline-color: #333;
-        box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
-    }
-}
-
-@keyframes check {
-  50% {
-        outline-color: #333;
-        box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
-  }
-  100% {
-        outline-color: #333;
-        box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
-  }
-}
-
-@media (max-width: 1025px) {
-    
-    .exercice{
-        margin-left: 5%;
+        .header__nav {
+            width: 12px;
+            height: 12px;
+            margin: 2rem 12px;
+            border-radius: 50%;
+            outline: 6px solid #ccc;
+            outline-offset: -6px;
+            -webkit-appearance: none;
+                -moz-appearance: none;
+                    appearance: none;
+        }
     }
 
-    .slider img{
-        height: 65vw;
-    }
-}
-
-@media (max-width: 940px) {
-    .slider img{
-        height: 84vw;
-    }
-}
-
-@media (max-width: 720px) {
-    .slider img{
-        height: 100vw;
-    }
-}
-
-@media (max-width: 580px) {
-    .slider img{
-        height: 130vw;
-    }
-}
-
-@media (max-width: 426px) {
-    .exercice{
-        margin: 7%;
-    }
-
-    .welcome{
-        margin: 15% 0% 5% 0%;
-    }
-
-    .header-p{
-        margin: 2% 0% 2% 0%;
-    }
-    
-    #header button{
-        padding: 4% 8% 4% 8%;
-        margin-top: 4%;
-    }
-
-    .header-radio{
-        margin-top: 10%;
-    }
-
-    .slider img{
-        height: 125vw;
-    }
-}
-
-@media (max-width: 376px) {
-    .header-p{
-        margin: 8% 0% 8% 0%;
-    }
-
-    .slider img{
-        height: 150vw;
-    }
-}
-
-@media (max-width: 321px) {
-    .slider img{
-        height: 190vw;
+    .header__inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: left 0.4s;
     }
 }
 
@@ -246,16 +120,16 @@
 	align-content: center;
 }
 
-.a, .b, .c, .d{
+.titre-section-1, .titre-section-2, .c, .d{
     margin-bottom: 12%;
 }
 
-.a img{
+.titre-section-1 img{
     width: 70%;
     box-shadow: 1px 1px 5px 1px whitesmoke;
 }
 
-.b img{
+.titre-section-2 img{
     margin-top: 2%;
     width: 70%;
 }
@@ -309,7 +183,7 @@
         align-content: center;
     }
 
-    .a img, .b img{
+    .titre-section-1 img, .titre-section-2 img{
         margin: 2% 0% 0% 0%;
         width: 100%;
     }
