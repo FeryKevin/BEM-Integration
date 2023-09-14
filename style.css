@@ -6,7 +6,28 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.principal__title {
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 4px;
+  margin: 1% 0% 4% 0%;
+}
+
+.orange {
+  color: #c99387;
+  font-family: "Noto Serif";
+  font-style: italic;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.principal-title {
   font-weight: bold;
   text-align: center;
   color: white;
@@ -14,7 +35,7 @@
   letter-spacing: 5px;
 }
 
-.principal__text {
+.principal-text {
   margin: 1% 32% 0% 32%;
   text-align: center;
   color: white;
@@ -33,27 +54,6 @@
   margin-top: 1.5%;
   padding: 1% 2% 1% 2%;
   border: none;
-}
-
-.orange {
-  color: #c99387;
-  font-family: "Noto Serif";
-  font-style: italic;
-}
-
-.title {
-  font-size: 2rem;
-  font-weight: bold;
-  letter-spacing: 4px;
-  margin: 1% 0% 4% 0%;
-}
-
-.flex {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-content: center;
 }
 
 /* SECTION 1 - HEADER */
@@ -123,79 +123,21 @@
 }
 
 /* SECTION 3 */
-#titre-2 {
+.church {
   display: flex;
   justify-content: space-evenly;
   background: url("assets/landing-slider1-background.jpg");
   background-repeat: no-repeat;
   width: 99vw;
-  height: 100vh;
-  margin-bottom: 10%;
+  height: 80vh;
 }
-
-.titre2-txt {
-  margin: 18% 5% 3% 5%;
-}
-
-.titre-p {
-  color: #c99387;
-  font-style: italic;
-  margin-bottom: 2%;
-}
-
-.titre2-txt h2 {
-  font-weight: bold;
-  font-family: "Montserrat", sans-serif;
-  letter-spacing: 2px;
-  font-size: 35px;
+.church p:not(.orange), .church a {
+  text-align: left;
   color: white;
 }
-
-.titre-p2 {
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  margin: 4% 0% 5% 0%;
-}
-
-.titre-link {
-  color: white;
-  font-family: "Montserrat", sans-serif;
+.church a {
   text-decoration: none;
   letter-spacing: 1px;
-}
-
-.titre-img1 {
-  margin: 10% 6% 5% 0%;
-}
-
-.titre-img2 {
-  margin-top: 10%;
-}
-
-.titre-img1 img {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  margin-left: 3%;
-  width: 100%;
-}
-
-.titre-img2 img {
-  width: 70%;
-  margin-left: 15%;
-}
-
-.j {
-  position: absolute;
-  right: 37.5%;
-  margin-top: 9.5%;
-}
-
-.j img {
-  width: 105%;
 }
 
 /* SECTION 4 */
