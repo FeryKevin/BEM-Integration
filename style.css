@@ -65,16 +65,16 @@
   height: 100VH;
   width: 100%;
 }
-.header .header__information {
+.header__information {
   z-index: 1;
 }
-.header .header__information .header__exercise {
+.header__information .header__exercise {
   margin: 3% 0% 0% 3%;
   color: #feebdd;
   font-style: italic;
   font-family: "Noto Serif";
 }
-.header .header__information .header__welcome {
+.header__information .header__welcome {
   margin: 9% 0% 1% 0%;
   font-size: 1.5rem;
   color: #feebdd;
@@ -82,12 +82,12 @@
   text-align: center;
   font-family: "Noto Serif";
 }
-.header .header__information .header__radio {
+.header__information .header__radio {
   display: flex;
   justify-content: center;
   margin-top: 7%;
 }
-.header .header__information .header__radio .header__nav {
+.header__information .header__radio .header__nav {
   width: 12px;
   height: 12px;
   margin: 2rem 12px;
@@ -98,7 +98,7 @@
   -moz-appearance: none;
   appearance: none;
 }
-.header .header__inner {
+.header__inner {
   position: absolute;
   top: 0;
   left: 0;
@@ -109,16 +109,16 @@
 .home {
   margin: 0% 5% 5% 5%;
 }
-.home .home__01, .home .home__02 {
+.home__01, .home__02 {
   margin-bottom: 15%;
 }
-.home .home__01 img {
+.home__01 img {
   box-shadow: 1px 1px 5px 1px whitesmoke;
 }
-.home .home__01 img, .home .home__03 img {
+.home__01 img, .home__03 img {
   width: 70%;
 }
-.home .home__02 img, .home .home__04 img {
+.home__02 img, .home__04 img {
   width: 89.2%;
 }
 
@@ -147,13 +147,13 @@
 .project p {
   text-align: center;
 }
-.project .project__div {
+.project__div {
   margin: 2%;
 }
-.project .project__div img {
+.project__div img {
   width: 80%;
 }
-.project .project__div p {
+.project__div p {
   text-align: left;
   font-weight: bold;
   letter-spacing: 2px;

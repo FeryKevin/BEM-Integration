@@ -67,7 +67,7 @@
     height: 100VH;
     width: 100%;
 
-    .header__information{
+    &__information{
         z-index: 1;
 
         .header__exercise{
@@ -105,7 +105,7 @@
         }
     }
 
-    .header__inner {
+    &__inner {
         position: absolute;
         top: 0;
         left: 0;
@@ -118,19 +118,19 @@
 .home{
     margin: 0% 5% 5% 5%;
 
-    .home__01, .home__02{
+    &__01, &__02{
         margin-bottom: 15%;
     }
 
-    .home__01 img{
+    &__01 img{
         box-shadow: 1px 1px 5px 1px whitesmoke;
     }
 
-    .home__01 img, .home__03 img{
+    &__01 img, &__03 img{
         width: 70%;
     }
 
-    .home__02 img, .home__04 img{
+    &__02 img, &__04 img{
         width: 89.2%;
     }
 }
@@ -165,7 +165,7 @@
         text-align: center;
     }
 
-    .project__div{
+    &__div{
         margin: 2%;
 
         img{
