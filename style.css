@@ -131,13 +131,25 @@
   width: 99vw;
   height: 80vh;
 }
-.church p:not(.orange), .church a {
+.church__left {
+  margin-top: 12%;
+}
+.church__left p:not(.orange), .church__left a {
   text-align: left;
   color: white;
+  margin-bottom: 6%;
 }
-.church a {
+.church__left a {
   text-decoration: none;
   letter-spacing: 1px;
+}
+.church__img1 img {
+  position: absolute;
+  margin-top: 10%;
+  left: 43%;
+}
+.church__img2 img {
+  margin: 8% 0%;
 }
 
 /* SECTION 4 */

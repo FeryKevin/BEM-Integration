@@ -145,14 +145,29 @@
     width: 99vw;
     height: 80vh;
 
-    p:not(.orange), a{
-        text-align: left;
-        color: white;
+    &__left{
+        margin-top: 12%;
+
+        p:not(.orange), a{
+            text-align: left;
+            color: white;
+            margin-bottom: 6%;
+        }
+        
+        a{
+            text-decoration: none;
+            letter-spacing: 1px;
+        }
     }
 
-    a{
-        text-decoration: none;
-        letter-spacing: 1px;
+    &__img1 img{
+        position: absolute;
+        margin-top: 10%;
+        left: 43%;
+    }
+
+    &__img2 img{
+        margin: 8% 0%;
     }
 }
 
