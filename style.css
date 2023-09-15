@@ -56,7 +56,7 @@
   border: none;
 }
 
-/* SECTION 1 - HEADER */
+/* HEADER */
 .header {
   display: flex;
   justify-content: center;
@@ -105,7 +105,7 @@
   transition: left 0.4s;
 }
 
-/* SECTION 2 */
+/* SECTION 2 - HOME */
 .home {
   margin: 0% 5% 5% 5%;
 }
@@ -121,8 +121,22 @@
 .home__02 img, .home__04 img {
   width: 89.2%;
 }
+.home .flex .home__title {
+  position: absolute;
+  margin-top: 1.5%;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.home .flex .orange {
+  font-size: 9rem;
+  opacity: 0.2;
+  margin-left: 1.8%;
+}
+.home .flex p {
+  margin-top: -8%;
+}
 
-/* SECTION 3 */
+/* SECTION 3 - CHURCH */
 .church {
   display: flex;
   justify-content: space-evenly;
@@ -152,7 +166,7 @@
   margin: 8% 0%;
 }
 
-/* SECTION 4 */
+/* SECTION 4 - PROJECT */
 .project {
   margin: 10% 0%;
 }
