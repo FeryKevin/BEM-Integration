@@ -62,7 +62,7 @@
   justify-content: center;
   position: relative;
   overflow: hidden;
-  height: 100VH;
+  height: 100vh;
   width: 100%;
 }
 .header__information {
@@ -197,6 +197,8 @@
 .footer {
   background: url("assets/landing-bottom-background-1.jpg");
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   width: 99vw;
   height: 59vh;
   text-align: center;
@@ -205,6 +207,9 @@
 
 /* RESPONSIVE */
 @media (max-width: 769px) {
+  .principal-text {
+    margin: 2% 5%;
+  }
   .flex {
     flex-direction: column;
     justify-content: center;
@@ -214,7 +219,40 @@
   .flex img {
     width: 100%;
   }
+  .button button {
+    padding: 3% 8% 3% 8%;
+  }
+  /* HEADER */
+  .header {
+    height: 70vh;
+  }
+  /* HOME */
+  .home {
+    padding-top: 10%;
+  }
+  /* CHURCH */
+  .church__left {
+    margin: 25% 15%;
+  }
   .church__link img {
     display: none;
+  }
+  /* PROJECT */
+  .project__div p {
+    margin-bottom: 10%;
+  }
+  /* FOOTER */
+  .footer {
+    height: 59vh;
+  }
+}
+@media (max-width: 490px) {
+  /* CHURCH */
+  .church__left {
+    margin-top: 45%;
+  }
+  /* FOOTER */
+  .footer {
+    height: 89vh;
   }
 }/*# sourceMappingURL=style.css.map */
