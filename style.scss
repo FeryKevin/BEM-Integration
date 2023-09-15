@@ -135,6 +135,12 @@
     }
     
     .flex{
+
+        img{
+            position: relative;
+            z-index: 1;
+        }
+
         .home__title{
             position: absolute;
             margin-top: 1.5%;
@@ -150,6 +156,10 @@
 
         p{
             margin-top: -8%;
+        }
+
+        .home__right p:last-child{
+            margin-top: -10%;
         }
     }
 }

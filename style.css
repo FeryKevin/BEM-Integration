@@ -121,6 +121,10 @@
 .home__02 img, .home__04 img {
   width: 89.2%;
 }
+.home .flex img {
+  position: relative;
+  z-index: 1;
+}
 .home .flex .home__title {
   position: absolute;
   margin-top: 1.5%;
@@ -134,6 +138,9 @@
 }
 .home .flex p {
   margin-top: -8%;
+}
+.home .flex .home__right p:last-child {
+  margin-top: -10%;
 }
 
 /* SECTION 3 - CHURCH */
