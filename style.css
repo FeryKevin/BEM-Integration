@@ -243,7 +243,7 @@
   }
   /* FOOTER */
   .footer {
-    height: 59vh;
+    height: 40vh;
   }
 }
 @media (max-width: 490px) {
@@ -253,6 +253,6 @@
   }
   /* FOOTER */
   .footer {
-    height: 89vh;
+    height: 50vh;
   }
 }/*# sourceMappingURL=style.css.map */
