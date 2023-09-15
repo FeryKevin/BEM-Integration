@@ -235,3 +235,22 @@
     text-align: center;
     padding-top: 14%;
 }
+
+/* RESPONSIVE */
+
+@media (max-width: 769px) {
+    .flex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .church__link img{
+        display: none;
+    }
+}
