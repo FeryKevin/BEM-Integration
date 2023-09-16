@@ -1,0 +1,8 @@
+FONT
+
+Pour les textes comme le mot Simplicité
+Noto serif
+
+Pour les titres comme le mot TITRE LOREM
+Pour les textes comme Lorem ipsum ...
+Montserrat
