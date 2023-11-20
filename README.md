@@ -1,3 +1,3 @@
-# Integration_Licence
+# BEM_Licence
 
-HTML / SASS integration project
+HTML / SASS integration project with BEM method
